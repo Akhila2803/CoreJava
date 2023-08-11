@@ -26,4 +26,14 @@
     <servlet-name>FibonacciServlet</servlet-name>
     <url-pattern>/fibonacci</url-pattern>
   </servlet-mapping>
+  <servlet>
+  <description></description>
+  <display-name>CheckPasswords</display-name>
+  <servlet-name>CheckPasswords</servlet-name>
+  <servlet-class>com.learning.hello.CheckPasswords</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  <servlet-name>CheckPasswords</servlet-name>
+  <url-pattern>/CheckPasswords</url-pattern>
+  </servlet-mapping>
 </web-app>
